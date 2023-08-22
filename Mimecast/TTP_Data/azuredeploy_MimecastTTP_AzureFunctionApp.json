@@ -205,7 +205,7 @@
                     "active_directory_tenant_id": "[concat('@Microsoft.KeyVault(SecretUri=https://', variables('functionAppName'), '.vault.azure.net/secrets/', 'active-directory-tenant-id', '/)')]",
                     "log_analytics_workspace_id": "[concat('@Microsoft.KeyVault(SecretUri=https://', variables('functionAppName'), '.vault.azure.net/secrets/', 'log-analytics-workspace-id', '/)')]",
                     "log_analytics_workspace_key": "[concat('@Microsoft.KeyVault(SecretUri=https://', variables('functionAppName'), '.vault.azure.net/secrets/', 'log-analytics-workspace-key', '/)')]",
-                    "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/priyalaxminayak/Mimecast_TTP_Data/blob/main/DataConnector-MimecastTTP-D-1.0.0-1.zip?raw=true"
+                    "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/priyalaxminayak/Mimecast_TTP_Data/blob/main/DataConnector-MimecastTTP-D-1.0.0-2.zip?raw=true"
                 }
             }]
         },
